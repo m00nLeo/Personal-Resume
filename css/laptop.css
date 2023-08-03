@@ -1,0 +1,155 @@
+@media screen and (min-width: 1024px) {
+  section > .container {
+    padding: 30px 50px;
+  }
+  /* HEADER */
+  #banner {
+    height: 50vh;
+  }
+
+  /* NAVBAR */
+  .nav-bar-item {
+    width: 9em;
+    height: 3em;
+  }
+  .nav-ava,
+  .white-circle {
+    display: block;
+    width: 200px;
+    height: 200px;
+  }
+  .white-circle {
+    width: 230px;
+    height: 230px;
+  }
+  .nav-left {
+    transform: translateX(-75%);
+  }
+  .nav-left:nth-child(2) {
+    border-right: none;
+  }
+  .nav-right {
+    transform: translateX(75%);
+  }
+
+  /* Career goal */
+  #about {
+    background: linear-gradient(to right, #f7f7f7, #f0f0f0);
+  }
+  #about > .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #target {
+    padding: 60px;
+  }
+  #personal-info {
+    padding: 60px;
+  }
+  .section-title {
+    font-size: 32px;
+  }
+
+  .info {
+    font-size: 16px;
+  }
+  .info-web {
+    padding-left: 15px;
+    font-size: 24px;
+  }
+
+  /* Experience */
+  #job-info .container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 75%;
+  }
+  .exp-title h1,
+  .exp-title span {
+    font-size: 30px;
+  }
+  .exp-content {
+    font-size: 14px;
+  }
+  .timeline-list {
+    padding-left: 20px;
+  }
+  .timeline-list:after {
+    height: 15px;
+    width: 15px;
+  }
+  .content-time {
+    font-size: 12px;
+  }
+
+  /* Language */
+  .level-point {
+    column-gap: 10px;
+  }
+  .point {
+    width: 20%;
+    height: 4px;
+  }
+
+  /* Certificate */
+  .certificate-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .certificate-item {
+    flex-direction: row;
+    column-gap: 50px;
+  }
+  .cer-img {
+    width: 200px;
+    height: 102px;
+  }
+  .cer-title {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  .cer-discription ul {
+    font-size: 14px;
+  }
+  .cer-left {
+    padding-right: 20px;
+    border-right: #d6c08d 1px solid;
+    margin-bottom: 20px;
+  }
+  .cer-right {
+    padding-left: 15px;
+    margin-bottom: 20px;
+  }
+  .cer-center {
+    border-top: #d6c08d 1px solid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding-top: 20px;
+  }
+
+  /* Project */
+  .project-box {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .pro-title,
+  .pro-position,
+  .pro-description,
+  .pro-tech,
+  .pro-mission {
+    padding: 14px 10px;
+    font-size: 14px;
+  }
+  .pro-position {
+    flex-direction: row;
+    align-items: center;
+    row-gap: 10px;
+  }
+  .pro-img {
+    height: 200px;
+  }
+  .table-name {
+    width: 100px;
+    padding-right: 0;
+  }
+  #footer .container .info-web a {
+    font-size: 70%;
+  }
+}
